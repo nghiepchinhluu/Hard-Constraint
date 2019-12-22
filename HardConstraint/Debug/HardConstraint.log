@@ -1,0 +1,13 @@
+﻿  OOP.cpp
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(40,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(91,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(101,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(123,29): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(123,29): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(123,40): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(123,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(136,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(136,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(136,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\OOP.cpp(136,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  HardConstraint.vcxproj -> C:\WorkPlace\HardConstraint\Debug\HardConstraint.exe

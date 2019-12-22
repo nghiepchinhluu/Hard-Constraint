@@ -1,0 +1,37 @@
+﻿  FinalVersion.cpp
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(41,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(94,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(104,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(125,17): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(125,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(125,20): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(125,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(129,29): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(129,29): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(129,40): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(129,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(143,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(143,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(143,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(143,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(193,19): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(193,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(193,22): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\WorkPlace\HardConstraint\HardConstraint\FinalVersion.cpp(193,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function "void __cdecl render::renderPoints(struct point *,bool *,int)" (?renderPoints@render@@YAXPEAUpoint@@PEA_NH@Z)
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "void __cdecl render::renderPoints(struct point *,bool *,int)" (?renderPoints@render@@YAXPEAUpoint@@PEA_NH@Z)
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "void __cdecl render::renderPoints(struct point *,bool *,int)" (?renderPoints@render@@YAXPEAUpoint@@PEA_NH@Z)
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_RenderDrawLine referenced in function "void __cdecl render::renderSticks(struct stick *,struct point *,int)" (?renderSticks@render@@YAXPEAUstick@@PEAUpoint@@H@Z)
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function "void __cdecl render::renderPoints(struct point *,bool *,int)" (?renderPoints@render@@YAXPEAUpoint@@PEA_NH@Z)
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function SDL_main
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function SDL_main
+FinalVersion.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+Headers\SDL2-2.0.8\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Headers\SDL2-2.0.8\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Headers\SDL2-2.0.8\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Headers\SDL2-2.0.8\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\WorkPlace\HardConstraint\x64\Debug\HardConstraint.exe : fatal error LNK1120: 12 unresolved externals
